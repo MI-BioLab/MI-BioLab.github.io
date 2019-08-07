@@ -1,20 +1,23 @@
-# Jekyll Materialize Starter Template v0.1
+# Machine Intelligence at Biolab website
 
-*A Site Starter Materialize Templates.
+## Developing the project:
 
-The theme is a fork of the [minima][1]
+1. Download Jekyll (it should be available for every major Linux distribution via the default package manager). If Jekyll is not available follow the instructions [here](https://jekyllrb.com/)
+2. `cd <project folder>` and then `jekyll serve`. If no error is detected you should see a local copy of the site at the address `127.0.0.1:4000`.
+3. Change style (folder `_sass`), layout (folder `_layouts`), general informations (file `_config.yml`), add a new post (folder `_posts`) or add new pages.
+4. Commit your changes (**make small commits!**) and push to master.
+5. The site should go online in few seconds, at `ggraffieti.github.io/mi.biolab.github.io`. If you don't see any change include the last version number (e.g. `https://ggraffieti.github.io/mi.biolab.github.io/?version=7d29966`). The version number can be found in the tab environment on the github repo.
 
-![minima theme preview](/screenshot.png)
+## Useful links
 
+- https://github.com/jekyll/minima
+- https://opensource.org/licenses/MIT
+- http://materializecss.com/
+- https://jekyllrb.com/docs/usage/
 
-# License
+## TODO
 
-The theme is available as so I use this source [MIT License][2].
-
-[Materialize][3] a  modern responsive front-end framework based on Material Design
-
-Copyright © 2017 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
-
-[1]: https://github.com/jekyll/minima
-[2]: https://opensource.org/licenses/MIT
-[3]: http://materializecss.com/
+- [ ] Understand the code structure.
+- [ ] Design a high-level template for the website
+- [ ] Decide the pages that we want to include in the site (blog? papers? projects?)
+- [ ] New logo?
