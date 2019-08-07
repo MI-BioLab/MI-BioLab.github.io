@@ -2,4 +2,4 @@
 layout: home
 ---
 
-A Site Starter Materialize Templates for Jekyll.
+Machine Intelligence @ Biolab - [Unibo](https://www.unibo.it/en/homepage).
