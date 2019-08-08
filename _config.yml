@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 twitter_username: ggraffieti
 github_username:  ggraffieti
 
-exclude: [example_posts]
+exclude: [example_posts,old_example_pages]
 
 sass:
     style: compressed
