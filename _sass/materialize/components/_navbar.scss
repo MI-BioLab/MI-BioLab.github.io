@@ -63,6 +63,11 @@ nav {
     display: inline-block;
     font-size: $navbar-brand-font-size;
     padding: 0;
+    padding-left: 4rem;
+    background-image: url(img//logo.png);
+    background-size: 3rem 3rem;
+    background-position: left;
+    background-repeat: no-repeat;
 
     &.center {
       left: 50%;

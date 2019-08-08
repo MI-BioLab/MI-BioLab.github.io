@@ -76,6 +76,12 @@ p.rss-subscribe {
     margin: 0;
 }
 
+.logo-image {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: -50px;
+}
+
 #particles-js {
   position: relative;
 }

@@ -6,13 +6,10 @@ layout: default
       <div id="particles-js">
       <div class="container">
         <br><br>
+        <img src="assets/img/logo.png" class="logo-image">
         <h1 class="header center orange-text">{{ site.title }}</h1>
         <div class="row center">
           <h5 class="header col s12 light">{{ content }}</h5>
-        </div>
-
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
         </div>
         <br><br>
 
@@ -59,7 +56,7 @@ layout: default
     <div style="background: #ddd">
     <div class="container last-post">
     <section>
-        <h5>News</h5>
+        <h5>Latest News</h5>
         <ul class="collection">
         {% for post in site.categories.news limit: 5 %}
         <li class="collection-item avatar">
