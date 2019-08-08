@@ -44,12 +44,18 @@ h1.page-title {
     overflow: hidden;
     left: 10px;
     display: inline-block;
-    padding: 16px 0;
+    padding: 10px 0;
     vertical-align: middle;
-    background: #ad1457;
-    color: #fff;
+    font-size: 34px;
+    // background: #ad1457;
+    color: #ad1457;
     text-align: center;
 }
+
+.last-post>.post-content {
+  font-size: inherit;
+}
+
 .txt-center {
     text-align: center;
 }
@@ -58,7 +64,7 @@ h1.page-title {
     font-size: 2.8em;
     font-weight: 800;
 }
-.post-header time {
+.post-header, .last-post time {
     color: #cacaca;
     font-size: 0.9em;
 }
