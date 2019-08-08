@@ -1,0 +1,29 @@
+---
+layout: page
+title: News
+permalink: /news/
+order: 4
+---
+
+<div class="lcontainer">
+  <h1 class="project-name">NEWS</h1>
+  <div id="timeline">
+    {% for post in site.categories.news %}
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        <i class="material-icons">{{ post.icon }}</i>
+      </div>
+      <div class="timeline-content">
+        <h3>{{ post.title }}</h3>
+        <p>
+          {{ post.content | truncatewords: 50}}
+        </p>
+        <a href="{{ post.url | relative_url }}" class="timeline-btn">More</a>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+    </div>
+
+<!-- https://codepen.io/itbruno/pen/KwarLp/ -->
