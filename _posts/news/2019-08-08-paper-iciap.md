@@ -5,17 +5,11 @@ categories: news
 icon: description
 ---
 
-#### Hand Gesture Recognition with Leap Motion and Powerful Machine Learning Technique
+#### Gesture Recognition by Leap Motion Controller and LSTM Networks for CAD-oriented Interfaces
 
 **Lisa Mazzini, Annalisa Franco, Davide Maltoni**
 
-No sit vide aliquam accommodare, discere assentior quo ex. Sit cu congue atomorum persecuti. Tantas epicurei legendos est et, cum legimus praesent scriptorem te, soleat corrumpit id est. Magna delectus persecuti eam no. Vel in debet democritum.
-
-Eu equidem nominavi duo. Mea feugait constituto liberavisse ut, quo ea nibh quodsi civibus, liber graecis vis ad. Sumo zril solet his eu. At congue dicunt quo, quo id scaevola phaedrum. Qui ne eligendi constituam, vim ad mollis eripuit, quo purto graece admodum an.
-
-No reque voluptua eos, pro ad assentior necessitatibus. Ut elaboraret efficiantur liberavisse eos. Mucius quodsi intellegam an sed, et eos elit dolore gubergren. Sit decore iuvaret principes ex, sea causae delenit partiendo ut.
-
-Id postea graecis per, per possim epicuri ea. Est tale civibus id, probo mollis an per. Sit te omnis eripuit. Ad has summo intellegat, vel ex commodo iuvaret salutandi. His fierent expetendis te, est suas regione et, cu sed vivendum eleifend principes.
+This paper presents a gesture recognition approach for CAD interfaces where the Leap Motion Controller is used for its high precision in modeling user hands. A simple, compact and effective hand representation is proposed to encode trajectory and pose across time. Recognition is based on Recurrent Neural Networks, particularly suited for processing data sequences. An effective data augmentation technique is also described to increase the size of the training set. Experiments conducted on a novel dataset of gesture performed by 30 volunteers show the effectiveness of the proposed technique; the dataset will be made available to the community for future studies.
 
 ---
 
