@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Machine Intelligence @ Biolab is online!"
-categories: misc
+categories: news
 icon: cake
 ---
 

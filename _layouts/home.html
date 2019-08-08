@@ -59,7 +59,7 @@ layout: default
     <section>
         <h5>News</h5>
         <ul class="collection">
-        {% for post in site.posts %}
+        {% for post in site.categories.news %}
         <li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <div class="date-post icon-block">

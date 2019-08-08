@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paper accepted at the ICIAP Conference in Trento!
-categories: publication
+categories: news
 icon: description
 ---
 
