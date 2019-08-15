@@ -341,6 +341,30 @@ ul.staggered-list li {
   color: $footer-font-color;
   background-color: $footer-bg-color;
 
+  .footer-info {
+    text-align: center;
+
+    h5 {
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 1.5rem;
+    }
+
+    span {
+      display: block;
+    }
+
+    .social-image {
+      width: 24px;
+      height: 24px;
+      margin: 0.5rem 0.2rem;
+    }
+
+  }
+
   .footer-copyright {
     overflow: hidden;
     min-height: 50px;
